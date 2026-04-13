@@ -4,7 +4,7 @@ name: Hello
 #runs on a tigger
 on:
   push:
-    branches:[main]
+    branches: [main]
 #These are job inside the workflow
 jobs:
 
