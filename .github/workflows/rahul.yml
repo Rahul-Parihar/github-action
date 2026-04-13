@@ -1,0 +1,24 @@
+name: rahul
+
+on:
+ push:
+   branches: [main]
+
+   jobs:
+     profile:
+       runs-on: ubuntu-latest
+
+       env:
+        EXPERIENCE:: "5+ Year of Experince in IT Industry"
+        COMPANIES: "JSW STEEL"
+        SKILLS: " Linux, github, docker,k8s, terreform"
+      
+
+       steps:
+         - name: echo " show Experince"
+           run: echo "Companies $COPANIES"
+         - name: echo "Experiances"
+           run: echo " $EXPERIENCE"
+         - name: echo "Skills are"
+           run: echo "Skills are $SKILLS"
+         
