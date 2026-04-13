@@ -1,0 +1,20 @@
+name: Rahul
+
+on:
+  push:
+    branches: [main]
+
+    jobs:
+
+      Skills:
+        runs-on: ubuntu-latest
+        steps:
+          - name: echo " what your skills are"
+            run: echo "skills in ddevops are ,linux,docker ,git,k8s,terraform"
+
+       Job-portal:
+          runs-on: ubuntu-latest:
+          steps:
+            - name: echo "tell me job portal for DevOps "
+              run: echo "Job portal are linkdin ,Naukari .com, etc."
+              
