@@ -4,17 +4,17 @@ on:
   push:
     branches: [main]
 
-    jobs:
+jobs:
 
-      Skills:
-        runs-on: ubuntu-latest
-        steps:
-          - name: echo " what your skills are"
-            run: echo "skills in ddevops are ,linux,docker ,git,k8s,terraform"
+  Skills:
+    runs-on: ubuntu-latest
+    steps:
+      - name: what your skills are
+        run: echo "skills in ddevops are ,linux,docker ,git,k8s,terraform"
 
-       Job-portal:
-          runs-on: ubuntu-latest:
-          steps:
-            - name: echo "tell me job portal for DevOps "
-              run: echo "Job portal are linkdin ,Naukari .com, etc."
+  Job-portal:
+     runs-on: ubuntu-latest
+     steps:
+       - name: tell me job portal for DevOps
+         run: echo "Job portal are linkdin ,Naukari .com, etc."
               
