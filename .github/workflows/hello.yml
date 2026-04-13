@@ -12,6 +12,7 @@ jobs:
   greet: 
       #this is github runner, each jpb runs on runner
       runs-on: ubuntu-latest
+      steps:
        -name: say hello to users
           run: echo "Hello dosto"
 
