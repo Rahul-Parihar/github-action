@@ -1,0 +1,12 @@
+#This is name of workflow
+name: hello
+
+jobs:
+  greet: 
+      runs-on: ubuntu-latest 
+        -name: say hello to users
+          run: echo "Hello dosto"
+
+        -name: say hello to user name
+          run: echo "Hello $USER"
+          
