@@ -1,0 +1,30 @@
+name: CICD Pipeline
+on:
+  push:
+    branches: [main]
+
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: code cloning
+        run: echo " code clone from github"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: code build
+        run: echo "code build from docker build"
+    
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test the code
+        run: echo "code testing in progress"
+       
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy the code 
+        run: echo " code is deplyed"
+
+    
